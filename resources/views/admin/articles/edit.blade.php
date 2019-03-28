@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('contenu')
+@section('content')
 
     <h2>Modifier Article: {{ $article->nom }}</h2>
 

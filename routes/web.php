@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('admin')->namespace('Admin')->group(function () {
+Route::middleware('auth')->prefix('admin')->namespace('Admin')->group(function () {
     //List of routes for Product (article) module
     Route::get('/article', 'ArticleController@index')->name('article.index');
 

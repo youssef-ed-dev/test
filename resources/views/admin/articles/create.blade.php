@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('contenu')
+@section('content')
 
     <h2>Ajouter un Article :</h2>
 
@@ -30,9 +30,9 @@
         <div class="form-group">
             <label for="">Image</label>
             <input class="form-control" type="file" name="photo" onchange="readURL(this);">
-            </div class="form-group">
+            <div class="form-group">
             <img id="blah" src="http://placehold.it/180" style="height: 50px;margin:8px;">
-            <div>
+            </div>
         </div>
 
         <div class="form-group">

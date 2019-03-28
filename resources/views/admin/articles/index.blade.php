@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('contenu')
+@section('content')
 
     <form action="{{ route('article.search') }}" method="get">
         <div class="input-group" style="width: 40%;">
